@@ -2,7 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Greeting from "./Greeting";
 import Profile from "./Profile";
 import ToDoList from "./ToDoList";
-// Não se esqueça de importar os componentes!
+import EmotionMeter from "./EmotionMeter"
 
 function App() {
   return (
@@ -10,18 +10,18 @@ function App() {
       {/* Não se esqueça de invocar seus componentes aqui! */}
       <small>Interpolação de variáveis</small>
       <Greeting />
-      
+
       <small>Imagens</small>
       <hr />
       <Profile />
 
       <small>Renderização de listas</small>
       <hr />
-      <ToDoList/>
+      <ToDoList />
 
       <small>Renderização condicional</small>
       <hr />
-      
+      <EmotionMeter/>
     </div>
   );
 }
